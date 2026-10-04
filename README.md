@@ -16,8 +16,12 @@ python -m http.server 8080
 ```
 ├── index.html        # Home page
 ├── about.html        # About / Our Story page
+├── index3d.html      # Optional 3D experience (Three.js hero)
 ├── css/styles.css    # Shared stylesheet (design tokens, responsive layout)
+├── css/3d.css        # Styles for the 3D page
 ├── js/main.js        # Mobile nav, product filters, wishlist, bag counter, forms
+├── js/3d.js          # Three.js scene + 3D tilt cards
+├── assets/           # Images provided by the task brief
 └── README.md
 ```
 
@@ -28,8 +32,8 @@ python -m http.server 8080
 - Product filter pills (New In / Best Sellers / Race Day / Trail)
 - Wishlist hearts and shopping-bag counter
 - Newsletter signup with inline confirmation
-- Embedded OpenStreetMap for the Glasgow store location
-- Lazy-loaded imagery, semantic landmarks, aria labels and alt text for accessibility
+- Map image of the Glasgow store location, lazy-loaded imagery, semantic landmarks, aria labels and alt text for accessibility
+- Optional 3D interactive page (`index3d.html`) powered by Three.js
 
 ## Deploy
 
